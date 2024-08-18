@@ -1,0 +1,9 @@
+manifest:
+  canonical: "com.github.webpagine.darkmode"
+  std: "v1"
+  patterns:
+    - "/templates/*"
+
+templates:
+  - export: "head.html"
+    name: "head"
